@@ -1,6 +1,8 @@
 
 
 
+import 'package:firebasepractice_app/model/screens/anonymous/auth_services.dart';
+import 'package:firebasepractice_app/model/screens/anonymous/wrapper.dart';
 import 'package:firebasepractice_app/model/screens/phonenumberlogin/homeopt.dart';
 import 'package:otp/otp.dart';
 import 'model/screens/phonenumberlogin/otp.dart';
@@ -11,20 +13,27 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:safetynet_attestation/safetynet_attestation.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  // await AuthService().getOrCreateUser();
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
-      initialRoute: 'phone',
-      routes: {'phone':(context)=>MyPhone(),
-        'otp': (context)=> MyOtp(),
-      'homeopt':(context)=>MyHomeOpt()},
+      // debugShowCheckedModeBanner: false,
+      // initialRoute: 'phone',
+      // routes: {'phone':(context)=>MyPhone(),
+      //   'otp': (context)=> MyOtp(),
+      // 'homeopt':(context)=>MyHomeOpt()},
+      home: Wrapper(),
     )
   );
 }
+
+
+
 
 // import 'model/screens/app.dart';
 //
