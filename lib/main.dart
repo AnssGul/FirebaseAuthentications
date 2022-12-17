@@ -2,6 +2,7 @@
 
 
 import 'package:firebasepractice_app/model/screens/anonymous/auth_services.dart';
+import 'package:firebasepractice_app/model/screens/anonymous/googleAuthentication/auth_services_google.dart';
 import 'package:firebasepractice_app/model/screens/anonymous/wrapper.dart';
 import 'package:firebasepractice_app/model/screens/phonenumberlogin/homeopt.dart';
 import 'package:otp/otp.dart';
@@ -22,15 +23,17 @@ void main() async {
   // await AuthService().getOrCreateUser();
   runApp(
     MaterialApp(
-      // debugShowCheckedModeBanner: false,
+       debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
       // initialRoute: 'phone',
       // routes: {'phone':(context)=>MyPhone(),
       //   'otp': (context)=> MyOtp(),
       // 'homeopt':(context)=>MyHomeOpt()},
-      home: Wrapper(),
+      home: AuthServiceGoogle().handleAuthState(),
     )
   );
 }
+
 
 
 
