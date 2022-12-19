@@ -6,6 +6,8 @@ import 'package:firebasepractice_app/model/screens/anonymous/googleAuthenticatio
 import 'package:firebasepractice_app/model/screens/anonymous/wrapper.dart';
 import 'package:firebasepractice_app/model/screens/phonenumberlogin/homeopt.dart';
 import 'package:otp/otp.dart';
+import 'model/screens/app.dart';
+import 'model/screens/facebook_auth/facebook_auth.dart';
 import 'model/screens/phonenumberlogin/otp.dart';
 import 'model/screens/phonenumberlogin/phone.dart';
 
@@ -16,10 +18,36 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:safetynet_attestation/safetynet_attestation.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/analysis_options_user.yaml';
+
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/foundation.dart';
+
 
 void main() async {
    WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform;
+
+  );
+  FirebaseMessaging messaging= FirebaseMessaging.instance;
+  NotificationSettings settings= await messaging.requestPermission(
+    alert: true,
+    announcement: false,
+    badge: true,
+    criticalAlert:false ,
+    provisional: false,
+    sound: true,
+  );
+  print("User granted permission: ${settings.authorizationStatus}");
+  FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+    print("In the foreground");
+    print("Message data: ${message.data}");
+    if(message.notification!=null){
+      print("Message also contained a notification: ${message.notification} ");
+    }
+  });
+
   // await AuthService().getOrCreateUser();
   runApp(
     MaterialApp(
@@ -29,9 +57,25 @@ void main() async {
       // routes: {'phone':(context)=>MyPhone(),
       //   'otp': (context)=> MyOtp(),
       // 'homeopt':(context)=>MyHomeOpt()},
-      home: AuthServiceGoogle().handleAuthState(),
+      //home: AuthServiceGoogle().handleAuthState(),
+      home: App(),
+     // home: MyPhone(),
     )
   );
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Facebook Login"),
+      ),
+      body: MyAppFacebook(),
+    );
+  }
 }
 
 
