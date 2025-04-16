@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Muhammad Anus Gul</h1>
-<h3 align="center">🚀 Flutter Developer | 🌍 Pakistan</h3>
+<h3 align="center">💻 Full-Stack Developer (Flutter + NestJS) | 🌍 Pakistan</h3>
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/f1/e7/34/f1e734f9cade86fe737a9aa404ad5677.gif" alt="Coding" width="400"/>
@@ -8,41 +8,43 @@
 ---
 
 ### 🛠 **About Me**  
-🌟 I’m a passionate **Flutter Developer** with expertise in creating high-performance, visually appealing, and user-friendly mobile applications.  
-🎯 My **goal** is to deliver cutting-edge Flutter solutions that solve real-world problems and provide exceptional user experiences.  
-💼 I specialize in **end-to-end Flutter app development**, covering everything from UI/UX design to backend integrations.
+🌟 I’m a passionate **Full-Stack Developer** with a focus on building scalable, secure, and high-performance applications using **Flutter** for frontend and **NestJS** for backend.  
+🎯 My **goal** is to deliver cutting-edge solutions that solve real-world problems and provide exceptional user experiences.  
+💼 I specialize in **mobile-first full-stack development**, covering everything from UI/UX to database design and API architecture.
 
 ---
 
 ### 💻 **My Expertise**  
-✅ **Flutter Framework** – Building dynamic, cross-platform apps.  
+✅ **Flutter Framework** – Building dynamic, cross-platform mobile apps.  
+✅ **NestJS** – Creating robust, modular, and testable backend APIs.  
 ✅ **State Management** – Proficient in **Bloc** and **GetX**.  
-✅ **Dart Programming** – Writing efficient, clean, and maintainable code.  
-✅ **API Integration** – Connecting apps to RESTful APIs with seamless data handling.  
-✅ **Firebase** – Expertise in authentication, Firestore, cloud functions, and real-time databases.  
-✅ **AI Integration** – Implementing ML and AI-powered features in Flutter applications.  
-✅ **UI/UX Design** – Crafting responsive, visually stunning interfaces.  
+✅ **Dart & TypeScript** – Writing clean, maintainable code.  
+✅ **RESTful API & Microservices** – Scalable architecture and integration.  
+✅ **Firebase** – Authentication, Firestore, real-time DB, and notifications.  
+✅ **PostgreSQL / MongoDB** – Advanced database design and queries.  
+✅ **Docker** – Containerizing full-stack applications for deployment.  
+✅ **AI Integration** – Incorporating machine learning into real apps.
 
-💡 *If it’s related to Flutter, I can handle it! From small bug fixes to developing a complete app, I’m your go-to developer.*  
+💡 *From frontend animations to backend APIs, I'm your go-to full-stack engineer!*
 
 ---
 
 ### 🚀 **What I’m Working On**  
-- Developing AI-powered face recognition apps.  
-- Building scalable Flutter solutions for startups and businesses.  
-- Exploring new state management and architectural patterns for better app performance.
+- 🚧 A full-stack project: `nestjs-zero-to-hero` — mastering NestJS from scratch.  
+- 🤖 Integrating AI into real-time chat and task automation systems.  
+- 🛠 Building reusable backend modules for Flutter applications.
 
 ---
 
 ### 💡 **Let's Collaborate**  
 💬 **Ask me about:**  
-- Creating high-performance Flutter apps.  
-- Choosing the right state management solution for your project.  
-- Optimizing Flutter apps for scalability and maintainability.  
+- Full-stack app development using Flutter + NestJS.  
+- Structuring backend systems for scale and maintainability.  
+- Integrating advanced features like authentication, payments, and AI.  
 
 🤝 **Looking for Help With:**  
-- Full-stack mobile application development.  
-- AI and ML integrations in Flutter.  
+- Backend development using Node.js or NestJS.  
+- Clean architecture and design systems in Flutter.
 
 ---
 
@@ -65,33 +67,20 @@
 
 ### 🔧 **Languages & Tools**  
 <p align="center"> 
-  <a href="https://flutter.dev" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/>
-  </a>
-  <a href="https://dart.dev" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="40" height="40"/>
-  </a>
-  <a href="https://firebase.google.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/>
-  </a>
-  <a href="https://developer.android.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android" width="40" height="40"/>
-  </a>
-  <a href="https://www.vectorlogo.zone/logos/getx/getx-icon.svg" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/getx/getx-icon.svg" alt="GetX" width="40" height="40"/>
-  </a>
-  <a href="https://bloclibrary.dev" target="_blank">
-    <img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" alt="Bloc" width="60" height="40"/>
-  </a>
-  <a href="https://www.tensorflow.org/lite" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow Lite" width="40" height="40"/>
-  </a>
+  <a href="https://flutter.dev" target="_blank"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40"/></a>
+  <a href="https://dart.dev" target="_blank"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="40"/></a>
+  <a href="https://nestjs.com/" target="_blank"><img src="https://nestjs.com/img/logo-small.svg" alt="NestJS" width="40"/></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="TypeScript" width="40"/></a>
+  <a href="https://firebase.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40"/></a>
+  <a href="https://www.postgresql.org/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL" width="40"/></a>
+  <a href="https://www.mongodb.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="MongoDB" width="40"/></a>
+  <a href="https://docker.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker" width="40"/></a>
 </p>
 
 ---
 
-### 🌟 **Stats & Activity**  
+### 🌟 **GitHub Stats**  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnssGul&show_icons=true&theme=radical" alt="GitHub Stats" width="400"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnssGul&theme=radical" alt="GitHub Streak" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=AnssGul&show_icons=true&theme=radical" width="400"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnssGul&theme=radical" width="400"/>
 </p>
